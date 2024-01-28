@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebSite</title>
+    <link rel="stylesheet" href="/audiovisuales.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Boston, El Perro</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="preferencias.html">Preferencias</a></li>
+          <li><a class="active" href="audiovisuales.html">Audiovisuales</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="centrado">
+      <video
+        class="centrado"
+        src="./assets/video/pexels-roman-odintsov-8746767 (2160p).mp4 "
+        height="1000px"
+        margin="15px"
+        padding=" 15px"
+        autoplay
+        muted
+        controls
+      ></video>
+    </div>
+
+    <div class="centrado">
+      <audio
+        class="centrado"
+        src="./assets/audio/ANIMALDOGSHEPHERD_6003_54_3.mp3"
+        autoplay
+        controls
+      ></audio>
+    </div>
+    <br />
+
+    <section class="centrado" class="gallery">
+      <div class="gallery">
+        <a href="/assets/img/labrador-metalero.jpg" target="_blank">
+          <img
+            src="/assets/img/banda-de-perros-metaleros.jpg"
+            alt="image1"
+            height="600 px"
+          />
+        </a>
+        <div class="desc">Los Perros del Metal</div>
+      </div>
+      <div class="gallery">
+        <a href="/assets/img/labrador-metalero.jpg" target="_blank">
+          <img
+            src="/assets/img/labrador-metalero.jpg"
+            alt="image2"
+            height="600 px"
+          />
+        </a>
+        <div class="desc">Boston 2018</div>
+      </div>
+      <div class="gallery">
+        <a href="/assets/img/perro-heroico-labrador.jpg" target="_blank">
+          <img
+            src="/assets/img/perro-heroico-labrador.jpg"
+            alt="image3"
+            height="600 px"
+          />
+        </a>
+        <div class="desc">Boston 2022</div>
+      </div>
+    </section>
+
+    <footer class="footer">Derechos reservados &copy; 2023</footer>
+  </body>
+</html>
